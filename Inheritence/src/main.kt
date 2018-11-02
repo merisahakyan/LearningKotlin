@@ -1,5 +1,6 @@
 import java.util.*
 
+
 fun main(args: Array<String>) {
     val sup=SuperClass(42)
     println(sup)

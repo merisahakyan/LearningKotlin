@@ -42,12 +42,12 @@ fun main(args: Array<String>) {
     colorSet.remove("blue")
     println(colorSet)
 
-    var colorList=colorSet.toMutableList()
-    colorList.removeAt(0)
-    colorList.add("purple")
-    println(colorList)
+    var colorsList=colorSet.toMutableList()
+    colorsList.removeAt(0)
+    colorsList.add("purple")
+    println(colorsList)
 
-    var newColorSet=colorList.toSet()
+    var newColorSet=colorsList.toSet()
     println(newColorSet)
 
     var clothingSet= mutableSetOf<ClothingItem>()
